@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
+using System.Collections;
 
 public class SceneManager_DemoScript : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class SceneManager_DemoScript : MonoBehaviour
 
 		if (GUI.Button(new Rect(Screen.width*0.5f-50, Screen.height-30, 100, 20), "Load scene"))
 		{
-			Dictionary<string, object> arguments=new Dictionary<string, object>();
+			Hashtable arguments=new Hashtable();
 			arguments.Add("argument", argument);
 			SceneManager.LoadScene("SceneManager_Demo2", arguments);
 		}
