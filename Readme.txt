@@ -3,6 +3,10 @@ SceneManager
 
 Class that allow to load scenes with parameters.
 
+Demo: http://gris.ucoz.ru/UnityModules/SceneManager/Web/SceneManager.html
+
+Description:
+
 You have to use commands below to load scene with parameters:
 
 
@@ -29,3 +33,8 @@ void Start()
     Debug.Log((double)SceneManager.sceneArguments["DoubleParam"]);
     Debug.Log((bool)  SceneManager.sceneArguments["BooleanParam"]);
 }
+
+Links:
+
+Site:   http://gris.ucoz.ru/index/scenemanager/0-10
+Github: https://github.com/Gris87/SceneManager
