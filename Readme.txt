@@ -37,4 +37,4 @@ void Start()
 Links:
 
 Site:   http://gris.ucoz.ru/index/scenemanager/0-10
-Github: https://github.com/Gris87/SceneManager
+GitHub: https://github.com/Gris87/SceneManager
