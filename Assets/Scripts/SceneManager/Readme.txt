@@ -3,7 +3,8 @@ SceneManager
 
 Class that allow to load scenes with parameters.
 
-Demo: http://gris.ucoz.ru/UnityModules/SceneManager/Web/SceneManager.html
+Demo:    http://gris.ucoz.ru/UnityModules/SceneManager/Web/SceneManager.html
+Sources: http://gris.ucoz.ru/UnityModules/SceneManager/SceneManager.zip
 
 Description:
 
@@ -34,7 +35,10 @@ void Start()
     Debug.Log((bool)  SceneManager.sceneArguments["BooleanParam"]);
 }
 
+
+
 Links:
 
-Site:   http://gris.ucoz.ru/index/scenemanager/0-10
-GitHub: https://github.com/Gris87/SceneManager
+Site:    http://gris.ucoz.ru/index/scenemanager/0-10
+Sources: http://gris.ucoz.ru/UnityModules/SceneManager/SceneManager.zip
+GitHub:  https://github.com/Gris87/SceneManager
